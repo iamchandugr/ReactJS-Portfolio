@@ -16,15 +16,14 @@ class Projects extends Component {
         let githubProjLocs = ["https://github.com/iamchandugr/ReactJS-Portfolio","https://github.com/iamchandugr/Blockchain-CCoin", "https://github.com/iamchandugr/SpringBootDemo/",
                               "https://github.com/iamchandugr/ML_Beginner/","https://github.com/iamchandugr/django_demo_polls",""]
         return(
-                <Card shadow={0} style={{width: '512px', margin: 'auto'}}>
+                <Card shadow={6} style={{width: '512px', margin: 'auto'}}>
                     <CardTitle style={{color: '#fff', height: '176px', background: 'url(http://www.getmdl.io/assets/demos/welcome_card.jpg) center / cover'}}>{tags[this.state.activeTab]}</CardTitle>
                     <CardText>
                         {tagsdescription[this.state.activeTab]}
                     </CardText>
                     <CardActions border>
                         <Button onClick={()=>window.open(githubProjLocs[this.state.activeTab])} colored>GitHub</Button>
-                        <Button colored>CodePen</Button>
-                        <Button colored>Live Demo</Button>
+                        {/* Add more buttons for live demo and for other options */}
                     </CardActions>
                     <CardMenu style={{color: '#fff'}}>
                         <IconButton name="share" />
