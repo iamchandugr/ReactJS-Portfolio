@@ -13,7 +13,7 @@ class Projects extends Component {
                                "Spring Boot application that demonstrate the REST services.",
                                "Titanic Machine Learning model which is trained to predict the probability of survival.",
                                "A simple Django application for polls and questions."];
-        let githubProjLocs = ["https://github.com/iamchandugr/Blockchain-CCoin", "https://github.com/iamchandugr/SpringBootDemo/",
+        let githubProjLocs = ["https://github.com/iamchandugr/ReactJS-Portfolio","https://github.com/iamchandugr/Blockchain-CCoin", "https://github.com/iamchandugr/SpringBootDemo/",
                               "https://github.com/iamchandugr/ML_Beginner/","https://github.com/iamchandugr/django_demo_polls",""]
         return(
                 <Card shadow={0} style={{width: '512px', margin: 'auto'}}>
